@@ -746,12 +746,6 @@ textarea:focus {
   margin-right: 50px;
 }
 
-.hat-container {
-  max-height: 80px;
-  display: flex;
-  align-items: center;
-}
-
 .hat-list {
   display: flex;
   margin-left: auto;
@@ -767,8 +761,7 @@ textarea:focus {
 .computer-link:not(:last-child) {
   margin-right: 30px;
 }
-.computer-link-container {
-}
+
 .computer-link:hover .computer-link-container,
 .computer-link:focus .computer-link-container {
   transform: translateY(-100%);
