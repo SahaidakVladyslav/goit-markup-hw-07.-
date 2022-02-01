@@ -2,7 +2,9 @@
 @import './utils/mixins';
 @import './utils/placeholders';
 @import './utils/variables';
-@import './components/general';
+@import './base/reset';
+@import './base/common';
+//components
 @import './components/hat__cellar';
 @import './components/main';
 @import './components/portfolio';
