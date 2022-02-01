@@ -439,13 +439,14 @@ textarea + .signature-container {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.icon-reference:focus + .icon-team,
-.icon-reference:hover + .icon-team {
-  fill: #ffffff;
-}
 .icon-team {
   fill: $svg-color;
 }
+.icon-reference:focus > .icon-team,
+.icon-reference:hover > .icon-team {
+  fill: #ffffff;
+}
+
 .team-link:not(:last-child) {
   margin-right: 30px;
 }
