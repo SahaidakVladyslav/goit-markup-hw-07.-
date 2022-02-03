@@ -130,14 +130,14 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  &:hover,
-  &:focus {
-    border-color: $accent-color;
-  }
-  &:hover ~ .svg-input,
-  &:focus ~ .svg-input {
-    fill: $accent-color;
-  }
+}
+input:hover,
+input:focus {
+  border-color: $accent-color;
+}
+input:hover ~ .svg-input,
+input:focus ~ .svg-input {
+  fill: $accent-color;
 }
 .input label {
   margin-bottom: 4px;

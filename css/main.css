@@ -182,7 +182,6 @@ body {
 }
 
 .hat {
-  min-width: 1600px;
   max-height: 80px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -194,7 +193,6 @@ body {
   padding-top: 200px;
   padding-bottom: 210px;
   max-height: 600px;
-  min-width: 1600px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -470,12 +468,13 @@ body {
           flex-direction: column;
 }
 
-.input:hover, .input:focus {
+input:hover,
+input:focus {
   border-color: #2196f3;
 }
 
-.input:hover ~ .svg-input,
-.input:focus ~ .svg-input {
+input:hover ~ .svg-input,
+input:focus ~ .svg-input {
   fill: #2196f3;
 }
 
